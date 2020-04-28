@@ -52,7 +52,7 @@
     "postcss": "^7.0.18",
     "postcss-scss": "^2.0.0",
     "postcss-selector-parser": "^6.0.2",
-    "postcss-value-parser": "^4.0.2",
+    "postcss-value-parser": "^4.1.0",
     "tmp-promise": "^2.0.2"
   },
   "devDependencies": {
