@@ -71,7 +71,7 @@
     "@types/core-object": "^3.0.1",
     "@types/cssesc": "^3.0.0",
     "@types/ember": "^3.1.0",
-    "@types/ember-qunit": "^3.4.6",
+    "@types/ember-qunit": "^3.4.14",
     "@types/ember-resolver": "^5.0.6",
     "@types/ember-test-helpers": "^1.0.5",
     "@types/ember-testing-helpers": "^0.0.3",
