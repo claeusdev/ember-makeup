@@ -1170,10 +1170,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/console-ui@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@types/console-ui/-/console-ui-2.2.2.tgz#6bf0bd9ab1a5746e5d500282efdefb84caf27831"
-  integrity sha512-SFen1G8liI1Zb8UQUjzlqPQYJA9a3fQ59vuejs7osxIxC4jrOo3vmMNO3n5kcLbI+9KC3TnQdS21hl4Qj2msMg==
+"@types/console-ui@^2.2.4":
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/@types/console-ui/-/console-ui-2.2.4.tgz#78433712ff7bd4f7f75c47989e941852be3b917d"
+  integrity sha512-8+/eTXfDIZrLElWV1qRBwIIf0mgntZuE0+257x9LNwG0qQn9In/JqTr0TyiWLs+QTpESso2gJwh1ruFBeOojsA==
   dependencies:
     "@types/inquirer" "*"
 
@@ -5260,7 +5260,6 @@ ember-load-initializers@^2.1.0:
 
 "ember-makeup@link:.":
   version "0.0.0"
-  uid ""
 
 ember-maybe-import-regenerator@^0.1.6:
   version "0.1.6"
@@ -11411,7 +11410,12 @@ terser@^4.1.2:
 
 "test-addon@link:./dev/test-addon":
   version "0.0.0"
-  uid ""
+  dependencies:
+    ember-cli-babel "^7.7.3"
+    ember-cli-htmlbars "^3.1.0"
+    ember-cli-typescript "^3.0.0"
+    ember-css-modules "^1.2.1"
+    ember-makeup "link:."
 
 "test-addon@link:dev/test-addon":
   version "0.0.0"
@@ -11424,19 +11428,29 @@ terser@^4.1.2:
 
 "test-eager-engine@link:./dev/test-eager-engine":
   version "0.0.0"
-  uid ""
+  dependencies:
+    ember-cli-babel "^7.7.3"
+    ember-cli-htmlbars "^3.1.0"
+    ember-cli-typescript "^3.0.0"
+    ember-css-modules "^1.2.1"
+    ember-makeup "link:."
+    test-addon "link:dev/test-addon"
 
 "test-lazy-engine@link:./dev/test-lazy-engine":
   version "0.0.0"
-  uid ""
+  dependencies:
+    ember-cli-babel "^7.7.3"
+    ember-cli-htmlbars "^3.1.0"
+    ember-cli-typescript "^3.0.0"
+    ember-css-modules "^1.2.1"
+    ember-makeup "link:."
+    test-addon "link:dev/test-addon"
 
 "test-theme-blue@link:./dev/test-theme-blue":
   version "0.0.0"
-  uid ""
 
 "test-theme-green@link:./dev/test-theme-green":
   version "0.0.0"
-  uid ""
 
 testem@^2.14.0:
   version "2.17.0"
